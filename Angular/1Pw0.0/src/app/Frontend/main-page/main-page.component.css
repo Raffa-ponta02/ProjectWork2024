@@ -1,34 +1,38 @@
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-body, html {
+  }
+  
+  body, html {
     height: 100%;
     font-family: Arial, sans-serif;
-}
-.header, .footer {
+  }
+  
+  .header, .footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 20px 0;
-}
-.sidebar {
+  }
+  
+  .sidebar {
     background-color: #f4f4f4;
     padding: 20px;
     width: 250px;
     height: calc(100% - 40px);
     float: left;
-}
-.main-content {
+  }
+  
+  .main-content {
     background-color: #fff;
     padding: 20px;
     width: calc(100% - 250px);
     height: calc(100% - 40px);
     float: left;
-}
-.footer {
+  }
+  
+  .footer {
     background-color: #333;
     color: white;
     text-align: center;
@@ -36,9 +40,11 @@ body, html {
     position: absolute;
     bottom: 0;
     width: 100%;
-}
-.clearfix::after {
+  }
+  
+  .clearfix::after {
     content: "";
     clear: both;
     display: table;
-}
+  }
+  
