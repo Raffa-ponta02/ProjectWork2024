@@ -49,4 +49,10 @@
     clear: both;
     display: table;
   }
+
+.logo{
+  background-color: blue;
+  width: 80px;
+  height: 80px;
+}
   
